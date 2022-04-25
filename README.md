@@ -39,25 +39,27 @@ Naive Bayes é um grupo bastante simples de algoritmos probabilísticos que, par
 
  - Support Vector Machines (SVM) é outro modelo de aprendizado de máquina supervisionado, semelhante à regressão linear, mas mais avançado. O SVM usa algoritmos para treinar e classificar texto dentro de nosso modelo de polaridade de sentimento, dando um passo além da previsão X/Y .O SVM então atribui um hiperplano que melhor separa as tags. Em duas dimensões isso é simplesmente uma linha (como na regressão linear). Para maximizar o aprendizado de máquina, o melhor hiperplano é aquele com a maior distância entre cada tag:Simplificando , o SVM permite um aprendizado de máquina mais preciso porque é multidimensional.
 
-[NLTK]tem sido a biblioteca NLP tradicional para Python. Possui uma comunidade ativa e oferece a possibilidade de treinar classificadores de machine learning.
-[SpaCy] é uma biblioteca de NLP com uma comunidade crescente. Assim como o NLTK, ele fornece um conjunto robusto de funções de baixo nível para NLP e suporte para classificadores de texto de treinamento.
-[O TensorFlow] desenvolvido pelo Google, fornece um conjunto de ferramentas de baixo nível para construir e treinar redes neurais. Há também suporte para vetorização de texto, tanto na frequência tradicional de palavras quanto em incorporações de palavras mais avançadas.
-[Keras] fornece abstrações úteis para trabalhar com vários tipos de redes neurais, como redes neurais recorrentes (RNNs) e redes neurais convolucionais (CNNs ) e empilhar facilmente camadas de neurônios. Keras pode ser executado em cima do Tensorflow ou Theano. Ele também fornece ferramentas úteis para classificação de texto.
-[O PyTorch] é uma estrutura recente de aprendizado profundo apoiada por algumas organizações de prestígio como Facebook, Twitter, Nvidia, Salesforce, Universidade de Stanford, Universidade de Oxford e Uber. Desenvolveu rapidamente uma comunidade forte.
-[ ] Quais são as principais métricas de interação?
+ - [NLTK]tem sido a biblioteca NLP tradicional para Python. Possui uma comunidade ativa e oferece a possibilidade de treinar classificadores de machine learning.
+ - [SpaCy] é uma biblioteca de NLP com uma comunidade crescente. Assim como o NLTK, ele fornece um conjunto robusto de funções de baixo nível para NLP e suporte para classificadores de texto de treinamento.
+ - [TensorFlow] desenvolvido pelo Google, fornece um conjunto de ferramentas de baixo nível para construir e treinar redes neurais. Há também suporte para vetorização de texto, tanto na frequência tradicional de palavras quanto em incorporações de palavras mais avançadas.
+ - [Keras] fornece abstrações úteis para trabalhar com vários tipos de redes neurais, como redes neurais recorrentes (RNNs) e redes neurais convolucionais (CNNs ) e empilhar facilmente camadas de neurônios. Keras pode ser executado em cima do Tensorflow ou Theano. Ele também fornece ferramentas úteis para classificação de texto.
+ - [PyTorch] é uma estrutura recente de aprendizado profundo apoiada por algumas organizações de prestígio como Facebook, Twitter, Nvidia, Salesforce, Universidade de Stanford, Universidade de Oxford e Uber. Desenvolveu rapidamente uma comunidade forte.
+
+
+Quais são as principais métricas de interação?
 
 Considerando as informações passíveis de serem extraídas com comentários, poderemos gerar as seguintes métricas:
 
-% de avaliações por compra
-% de opiniões por compra
-Tipo de sentimento por característica do produto
-Taxa de frequência de ocorrência da característica
-Mudanças no sentimento ao longo do tempo
-Mudanças no sentimento por característica ao longo do tempo
-Perfil consumidor: sexo, idade (é possível???)
+ - % de avaliações por compra
+ - % de opiniões por compra
+ - Tipo de sentimento por característica do produto
+ - Taxa de frequência de ocorrência da característica
+ - Mudanças no sentimento ao longo do tempo
+ - Mudanças no sentimento por característica ao longo do tempo
+ - Perfil consumidor: sexo, idade (é possível???)
 
 
 Referências:
-Sentiment Analysis Guide
-Sentiment Analysis | Comprehensive Beginners Guide | Thematic | Thematic
-Tudo sobre NLP: o que é, como opera, usos e desafios na IA
+-Sentiment Analysis Guide
+-Sentiment Analysis | Comprehensive Beginners Guide | Thematic | Thematic
+ Tudo sobre NLP: o que é, como opera, usos e desafios na IA
