@@ -15,22 +15,22 @@ Por que Análise de Sentimentos são tão importantes para empresas?
 o Existe uma infinidade de aplicações, mas é comumente usado para analisar comentários de clientes, respostas de pesquisas e análises de produtos.
 
 • Tarefas
-[ ] Como funciona a Análise de Sentimentos?
+ - Como funciona a Análise de Sentimentos?
 Análise de sentimentos tem por função identificar, extrair, quantificar e estudar estados afetivos e informações subjetivas. Ela utiliza algoritmos de Natural Language Process(NLP) e Machine Learning para analisar e classificar textos com tons emocionais.
 A análise de sentimento funciona dividindo uma mensagem em blocos de tópicos e, em seguida, atribuindo uma pontuação de sentimento a cada tópico.
 Os modelos básicos concentram-se em especial nas classificações positivas, negativas ou neutras como graduação de sentimento (como estrelas,p.e.), mas podem-se levar em consideração também as emoções contidas em um texto (amo este produto, detestei o atendimento, p.e.), as características associadas a um produto ou serviço (produto mais barato que, melhor qualidade que, p.e.). O contexto de uma sentença também pode indicar a direção do sentimento. Há ainda que se considerar a dificuldade que a Inteligencia Artificial tem de compreender ou identificar sarcasmo e ironia em uma sentença.
 A análise de sentimento enfrenta algumas limitações e dificuldades de análise, como fatores culturais, nuances linguísticas, palavras homónimas, erros de escrita, abreviaturas, contexto das frases.
 
-[ ] Como Análise de Sentimentos se aplica ao meu problema?
+ - Como Análise de Sentimentos se aplica ao meu problema?
 Com as múltiplas opiniões, avaliações, recomendações do livro a Alta Books, versão física ou digital (Kindle) tornou-se essencial gerenciar reputação e identificar novas oportunidades.
 Para tal é necessário transformar as avaliações e informações textuais em dados mensuráveis, perceber os apectos chave do produto que os clientes gostam ou não gostam e perceber as mensagens implícitas nestes textos.
 
-[ ] Quais as principais técnicas utilizadas para Análise de Sentimentos?
+ - Quais as principais técnicas utilizadas para Análise de Sentimentos?
 Existem ferramentas SaaS prontas no mercado para análise de sentimentos (software de Inteligencia Artificial), que analisam automaticamente os dados de texto ou permitem treinar modelos, cada uma com suas características, algunas requerem um maior conhecimento de ciencia de dados.
 Em alternativa é possível construir uma solução mais ajustada a solicitação do cliente com soluções de código aberto em Python ou Java. Para este projeto vamos optar pelo Python pois existem muitas bibliotecas de código aberto.
 Precisamos basicamente extrair os dados, dividir o texto em sentencas, identificar os sentimentos associados, classificação e quantificão, atribuído valores as polaridades (ex: -1,0,+1) e finalmente estudá-los.
 
-Como recursos podemos utilizar:
+Que recursos podemos utilizar:
 
  - Scikit-learn é a biblioteca para Machine Learning e possui ferramentas úteis para vetorização de texto. O Scikit-learn possui implementações para Support Vector Machines, Naïve Bayes e Logistic Regression, entre outros.
 Naive Bayes é um grupo bastante simples de algoritmos probabilísticos que, para classificação de análise de sentimento, atribui uma probabilidade de que uma determinada palavra ou frase seja considerada positiva ou negativa. Basicamente, Naive Bayes calcula palavras umas contra as outras. Assim, com modelos de aprendizado de máquina treinados para polaridade de palavras, podemos calcular a probabilidade de uma palavra, frase ou texto ser positivo ou negativo. Quando técnicas como lematização, remoção de palavras irrelevantes e frequência das palavras (TF-IDF )são implementadas, o Naive Bayes se torna cada vez mais preciso.
@@ -55,12 +55,7 @@ Taxa de frequência de ocorrência da característica
 Mudanças no sentimento ao longo do tempo
 Mudanças no sentimento por característica ao longo do tempo
 Perfil consumidor: sexo, idade (é possível???)
-[ ] Criar um Repositório no GitHub com o nome [book-analysi]
 
-[ ] Inserir um Readme.md com a documentação das tarefas acima
-
-[ ] Onde conseguir os dados necessários para o projeto?
-https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 Referências:
 Sentiment Analysis Guide
